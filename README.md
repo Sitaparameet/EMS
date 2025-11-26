@@ -1,4 +1,4 @@
-# Employee Management System (MERN Stack)
+# Employee Management System
 
 A full-featured Employee Management System built using the MERN stack:
 MongoDB, Express.js, React.js, and Node.js.
@@ -105,21 +105,16 @@ You’ll typically run **backend and frontend separately** in two terminals.
 
 1. In a **separate terminal**, go to the frontend folder:
 
-   ```bash
    cd "ems Front"
-   ```
 
 2. Install dependencies:
 
-   ```bash
    npm install
-   ```
 
 3. Start the React dev server:
 
-   ```bash
    npm run dev
-   ```
+
 
 4. Open the URL shown in the terminal, usually:
 
@@ -127,40 +122,15 @@ You’ll typically run **backend and frontend separately** in two terminals.
 
 The frontend will call the backend API (make sure the backend is running). If needed, adjust the API base URL in your React code (for example in `src/AllEmployees.jsx`, `AddEmployee.jsx`, or a shared API helper).
 
----
-
-## Available scripts
-
-### Backend (`EMS/package.json`)
-
-Common scripts (exact names may vary):
-
-- **`npm start`** – start the production server
-- **`npm run dev`** – start the server in development mode (with auto‑reload, if configured)
-
-### Frontend (`ems Front/package.json`)
-
-Typical Vite scripts:
-
-- **`npm run dev`** – start development server
-- **`npm run build`** – create optimized production build
-- **`npm run preview`** – preview the built app locally
-
----
-
 ## Development workflow
 
 1. **Start backend** (from `EMS`):
 
-   ```bash
    npm start
-   ```
 
 2. **Start frontend** (from `ems Front`):
 
-   ```bash
    npm run dev
-   ```
 
 3. Open the frontend in your browser and use the UI to:
 
@@ -193,29 +163,4 @@ All operations should be reflected in the database via the backend API.
 
 ---
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. Commit your changes and push:
-
-   ```bash
-   git commit -m "Add some feature"
-   git push origin feature/your-feature-name
-   ```
-
-4. Open a Pull Request
-
----
-
-## License
-
-You can add your preferred license here (for example MIT). If none is specified, the project is considered “all rights reserved” by default.
-
->>>>>>> 6a3631c (Add project README)
 
